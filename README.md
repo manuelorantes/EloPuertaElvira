@@ -1,5 +1,7 @@
 # ELO PuertaElvira
 
+Los pasos de la configuración de GitHub se encuentran en este [enlace](https://github.com/manuelorantes/EloPuertaElvira/blob/main/ConfiguracionGitHub/README.md)
+
 ## Descripción del proyecto
 
 El ELO en contextos de ajedrez es un ranking de puntos que se otorga a los jugadores de ajedrez según sus partidas oficiales. Hay tres clases de ELO, FADA (andaluz), FEDA (español) y FIDE (internacional). 
