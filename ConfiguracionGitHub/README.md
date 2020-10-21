@@ -15,7 +15,7 @@ Actualmente ya tenía claves ssh creadas, así que no he tenido que crearlas. Mu
 
 # Datos personales: nombre, imagen, ciudad, universidad...
 
-<img src="https://github.com/manuelorantes/EloPuertaElvira/blob/main/ConfiguracionGitHub/datos_personales.png" width="55%" height="55%">
+<img src="https://github.com/manuelorantes/EloPuertaElvira/blob/main/ConfiguracionGitHub/datos_personales.png" width="25%" height="25%">
 
 
 # Activar el two-factor authentication
