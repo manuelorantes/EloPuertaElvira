@@ -8,10 +8,10 @@ El objetivo de este proyecto es proporcionar una forma fácil a los jugadores de
 
 Por lo tanto se realizará un análisis de los datos de manera mensual (cuando los datos se publican) y además tendremos servicios en distintas redes sociales:
 
-	1. **Instagram**: Es una de las redes sociales principales del club ajedrez puerta elvira y en ella se publicarán ciertas imágenes en las que se vea el cambio de ELO de los miembros del club, tanto si suben o si bajan ELO. Además, habrá un mensaje especial para aquellos que consigan ELO por primera vez y a su vez habrá una publicación específica para el miembro que más ELO haya conseguido subir en ese periodo.
+1. **Instagram**: Es una de las redes sociales principales del club ajedrez puerta elvira y en ella se publicarán ciertas imágenes en las que se vea el cambio de ELO de los miembros del club, tanto si suben o si bajan ELO. Además, habrá un mensaje especial para aquellos que consigan ELO por primera vez y a su vez habrá una publicación específica para el miembro que más ELO haya conseguido subir en ese periodo.
 	
-	2. **Twitter**: Misma dinámica que en instagram solo que adaptada al formato de twitter. El objetivo principal es tener todas las redes sociales del club actualizadas, para que cada usuario pueda elegir la que más le guste.
+2. **Twitter**: Misma dinámica que en instagram solo que adaptada al formato de twitter. El objetivo principal es tener todas las redes sociales del club actualizadas, para que cada usuario pueda elegir la que más le guste.
 	
-	3. **Telegram**: En esta red social se quiere crear un bot que permita pedir los resultados de un miembro en específico. Además, obtendremos información personalizada de este, como puede ser la evolución del ELO en un periodo de tiempo (en una gráfica).
+3. **Telegram**: En esta red social se quiere crear un bot que permita pedir los resultados de un miembro en específico. Además, obtendremos información personalizada de este, como puede ser la evolución del ELO en un periodo de tiempo (en una gráfica).
 	
 Con esto se busca tener actualizadas las redes sociales del club como a su vez dar una ayuda a la persona encargada de llevar la página web del club, para facilitarle el obtener información de cara a realizar noticias futuras sobre los miembros del club.
