@@ -8,7 +8,7 @@ Podemos encontrar la descripción del proyecto en el siguiente [enlace](https://
 
 ## Arquitectura y herramientas elegidas
 
-Podemos encontrar la descripción del proyecto en el siguiente [enlace](https://github.com/manuelorantes/EloPuertaElvira/blob/main/Arquitectura/README.md).
+En el siguiente [enlace](https://github.com/manuelorantes/EloPuertaElvira/blob/main/Arquitectura/README.md) encontramos todo sobre la arquitectura y herramientas elegidas.
 
 ## Planificación del proyecto
 
