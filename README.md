@@ -43,45 +43,50 @@ Se realizará una arquitectura de microservicios, ya que esto nos ofrece que si 
 
 Además de la planificación aquí estipulada, se usará [trello](https://trello.com/b/dNqy38bk/elopuertaelvira) para ir planificando cada sprint en específico. Ahí podremos seguir paso a paso como va el desarrollo de cada proceso involucrado.
 
-### Primer objetivo [Milestone 1](https://github.com/manuelorantes/EloPuertaElvira/milestone/3)
+En cada uno de los objetivos, vemos lashistorias de usuario asociadas directamente a ese objetivo.
+
+### Primer objetivo [(Milestone 1)](https://github.com/manuelorantes/EloPuertaElvira/milestone/3)
 
 Creación de las entidades necesarias para manejar toda la información.
-  - [Creación de entidades básicas](https://github.com/manuelorantes/EloPuertaElvira/milestone/3)
+
+En este objetivo no hay historias de usuario directas, pero en muchas de ellas es necesario este primer objetivo. Para ver algunas de las cosas que se realizarán en este objetivo, vemos un par de issues:
+
+	+ [Crear entidad profesor](https://github.com/manuelorantes/EloPuertaElvira/issues/17)
+	+ [Crear entidad ELO](https://github.com/manuelorantes/EloPuertaElvira/issues/32)
 
 
-### Segundo objetivo
+### Segundo objetivo [(Milestone 2)](https://github.com/manuelorantes/EloPuertaElvira/milestone/5)
 
 Se crearán funcionalidades de la base de datos, añadir nuevos jugadores, poder consultar el ELO actual de todos ellos, poder consultar el cambio de ELO, eliminar jugadores que ya no pertenecen al club...
 
-  - [Integración con la base de datos](https://github.com/manuelorantes/EloPuertaElvira/milestone/5)
-    + [Añadir un alumno a una clase](https://github.com/manuelorantes/EloPuertaElvira/issues/12)
-    + [Eliminar un alumno de una clase](https://github.com/manuelorantes/EloPuertaElvira/issues/13)
-    + [Añadir nuevo jugador al club](https://github.com/manuelorantes/EloPuertaElvira/issues/7)
-    + [Quitar jugador del club](https://github.com/manuelorantes/EloPuertaElvira/issues/8)
+	+ [[HU2] Añadir nuevo jugador al club](https://github.com/manuelorantes/EloPuertaElvira/issues/7)
+	+ [[HU3] Quitar jugador del club](https://github.com/manuelorantes/EloPuertaElvira/issues/8)
+	+ [[HU7] Añadir un alumno a una clase](https://github.com/manuelorantes/EloPuertaElvira/issues/12)
+	+ [[HU8] Eliminar un alumno de una clase](https://github.com/manuelorantes/EloPuertaElvira/issues/13)
+
   
-  
-### Tercer objetivo
+### Tercer objetivo [(Milestone 3)](https://github.com/manuelorantes/EloPuertaElvira/milestone/4)
 
 Estará orientada a la comunicación del sistema entre sí como a poder comunicarse con el solicitante, recibiendo y transmitiendo información.
 
-  - [Comunicaciones](https://github.com/manuelorantes/EloPuertaElvira/milestone/4)
-    + [Obtener el último listado de ELO](https://github.com/manuelorantes/EloPuertaElvira/issues/6)
-    + [Obtener jugadores con ELO por primera vez](https://github.com/manuelorantes/EloPuertaElvira/issues/10)
+	+ [[HU1] Obtener el último listado de ELO](https://github.com/manuelorantes/EloPuertaElvira/issues/6)
+	+ [[HU4] Obtener jugadores con ELO por primera vez](https://github.com/manuelorantes/EloPuertaElvira/issues/9)
+	+ [[HU5] Obtener jugadores con ELO por primera vez](https://github.com/manuelorantes/EloPuertaElvira/issues/10)
+	+ [[HU6] Obtener los últimos datos de ELO](https://github.com/manuelorantes/EloPuertaElvira/issues/11)
   
 
-### Cuarto objetivo
+### Cuarto objetivo [(Milestone 4)](https://github.com/manuelorantes/EloPuertaElvira/milestone/6)
 
 Se añadirán los roles, que serán el administrador, los profesores y los usuarios estandar. Los profesores podrán añadir y eliminar alumnos de sus clases, mientras que el administrador podrá hacer lo propio pero en el sistema. Los usuarios estandar solo podrán consultar datos.
 
-  - [Añadir roles](https://github.com/manuelorantes/EloPuertaElvira/milestone/6)
+Aunque no hayan HU en este objetivo, se añadirán en el futuro. Además, partes de otras HU están presentes en este objetivo, y correspondientemente vincualadas con la [milestone 4](https://github.com/manuelorantes/EloPuertaElvira/milestone/6).
 
-### Quinto objetivo
+### Quinto objetivo [(Milestone 5)](https://github.com/manuelorantes/EloPuertaElvira/milestone/7)
 
 Será una alpha en la que se de acceso a ciertas persnas al sistema y se compruebe si todas las funcionalidades son correctas antes de finalizar el proyecto pasando a la versión 1.0. Además, se añadirá una ayuda y la información sobre la instalación de la herramienta.
 
-  - [Instalación, ayuda y opciones](https://github.com/manuelorantes/EloPuertaElvira/milestone/7)
-    + [Instalación](https://github.com/manuelorantes/EloPuertaElvira/issues/14)
-    + [Ayuda y opciones](https://github.com/manuelorantes/EloPuertaElvira/issues/15)
+	+ [[HU9] Instalación](https://github.com/manuelorantes/EloPuertaElvira/issues/14)
+	+ [[HU10] Ayuda y opciones](https://github.com/manuelorantes/EloPuertaElvira/issues/15)
     
 ### Clases creadas
 
