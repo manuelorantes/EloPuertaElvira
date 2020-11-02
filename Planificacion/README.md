@@ -1,6 +1,6 @@
 # Planificación del proyecto
 
-Además de la planificación aquí estipylada, se usará [trello](https://trello.com/b/dNqy38bk/elopuertaelvira) para ir planificando cada spring en específico. Ahí podremos seguir paso a paso como va el desarrollo de cada proceso involucrado.
+Además de la planificación aquí estipulada, se usará [trello](https://trello.com/b/dNqy38bk/elopuertaelvira) para ir planificando cada sprint en específico. Ahí podremos seguir paso a paso como va el desarrollo de cada proceso involucrado.
 
 ## Primer objetivo
 
