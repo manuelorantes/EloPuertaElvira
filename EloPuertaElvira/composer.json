@@ -12,6 +12,7 @@
         "symfony/yaml": "5.1.*"
     },
     "require-dev": {
+        "phpspec/phpspec": "^6.3"
     },
     "config": {
         "optimize-autoloader": true,
