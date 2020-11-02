@@ -1,0 +1,4 @@
+entidad:
+  -src/Entity/Group.php
+  -src/Entity/Player.php
+  -src/Entity/Teacher.php
