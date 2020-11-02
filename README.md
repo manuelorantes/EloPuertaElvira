@@ -37,7 +37,6 @@ Se realizará una arquitectura de microservicios, ya que esto nos ofrece que si 
 
 2. Para el desarrollo de test se usarán tanto [PHPUnit](https://phpunit.de/) que tiene una amplia y depurada [documentacion](https://phpunit.readthedocs.io/es/latest/) (incluso en español) y [PHPSpec](http://www.phpspec.net/en/stable/). Se usarán ambos ya que PHPUnit permite las tres clases de test y PHPSpec, aunque solo permite test unitarios, tiene una gran potencia y además tiene funciones que nos permiten programar enfocados a BDD y TDD.
 
-3. Se usará ademas docker y mysql como base de datos. Tienen ambas herramientas una implementación muy buena con symfony, lo que permite su uso muy cómodo, y mysql será suficiente para la base de datos que queremos, que no será demasiado extensa por las características del club.
 
 
 ## Planificación del proyecto
