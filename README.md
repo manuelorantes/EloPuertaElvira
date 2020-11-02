@@ -108,5 +108,5 @@ Se ha avanzado en las siguientes historias de usuario:
 + Se crea la clase [Group](https://github.com/manuelorantes/EloPuertaElvira/blob/main/Proyecto_EloPuertaElvira/src/Entity/Group.php), que servirá para gestionar las distintas clases que hay dentro del club. Un profesor puede manejar más de una clase.
 + Se crea la clase [Teacher](https://github.com/manuelorantes/EloPuertaElvira/blob/main/Proyecto_EloPuertaElvira/src/Entity/Teacher.php), que servirá para gestionar todo lo relacionado con los profesores. Podrá controlar sus grupos y tendremos información sobre sus horas, salario, etc...
 
-Podemos ver además la estructura de las clases y carpetas en el archivo cc.yaml.
+Podemos ver además la estructura de las clases y carpetas en el archivo [cc.yaml](https://github.com/manuelorantes/EloPuertaElvira/blob/main/Proyecto_EloPuertaElvira/cc.yaml).
  
