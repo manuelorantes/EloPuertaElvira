@@ -24,8 +24,8 @@ Se crearán funcionalidades de la base de datos, añadir nuevos jugadores, poder
 Estará orientada a la comunicación del sistema entre sí como a poder comunicarse con el solicitante, recibiendo y transmitiendo información.
 
   - [Comunicaciones](https://github.com/manuelorantes/EloPuertaElvira/milestone/4)
-    +[Obtener el último listado de ELO](https://github.com/manuelorantes/EloPuertaElvira/issues/6)
-    +[Obtener jugadores con ELO por primera vez](https://github.com/manuelorantes/EloPuertaElvira/issues/10)
+    + [Obtener el último listado de ELO](https://github.com/manuelorantes/EloPuertaElvira/issues/6)
+    + [Obtener jugadores con ELO por primera vez](https://github.com/manuelorantes/EloPuertaElvira/issues/10)
   
 
 ## Cuarto objetivo
