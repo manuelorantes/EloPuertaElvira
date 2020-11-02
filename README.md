@@ -51,8 +51,8 @@ Creación de las entidades necesarias para manejar toda la información.
 
 En este objetivo no hay historias de usuario directas, pero en muchas de ellas es necesario este primer objetivo. Para ver algunas de las cosas que se realizarán en este objetivo, vemos un par de issues:
 
-	- [Crear entidad profesor](https://github.com/manuelorantes/EloPuertaElvira/issues/17)
-	- [Crear entidad ELO](https://github.com/manuelorantes/EloPuertaElvira/issues/32)
+- [Crear entidad profesor](https://github.com/manuelorantes/EloPuertaElvira/issues/17)
+- [Crear entidad ELO](https://github.com/manuelorantes/EloPuertaElvira/issues/32)
 
 
 ### Segundo objetivo [(Milestone 2)](https://github.com/manuelorantes/EloPuertaElvira/milestone/5)
