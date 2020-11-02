@@ -18,4 +18,4 @@ Se añadirán los roles, que serán el administrador, los profesores y los usuar
 
 ## Quinto objetivo
 
-Será una alpha en la que se de acceso a ciertas persnas al sistema y se compruebe si todas las funcionalidades son correctas antes de finalizar el proyecto pasando a la versión 1.0.
+Será una alpha en la que se de acceso a ciertas persnas al sistema y se compruebe si todas las funcionalidades son correctas antes de finalizar el proyecto pasando a la versión 1.0. Además, se añadirá una ayuda y la información sobre la instalación de la herramienta.
