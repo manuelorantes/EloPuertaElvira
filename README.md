@@ -43,7 +43,7 @@ Se realizará una arquitectura de microservicios, ya que esto nos ofrece que si 
 
 Además de la planificación aquí estipulada, se usará [trello](https://trello.com/b/dNqy38bk/elopuertaelvira) para ir planificando cada sprint en específico. Ahí podremos seguir paso a paso como va el desarrollo de cada proceso involucrado.
 
-### Primer objetivo
+### Primer objetivo [Milestone 1](https://github.com/manuelorantes/EloPuertaElvira/milestone/3)
 
 Creación de las entidades necesarias para manejar toda la información.
   - [Creación de entidades básicas](https://github.com/manuelorantes/EloPuertaElvira/milestone/3)
@@ -82,3 +82,9 @@ Será una alpha en la que se de acceso a ciertas persnas al sistema y se comprue
   - [Instalación, ayuda y opciones](https://github.com/manuelorantes/EloPuertaElvira/milestone/7)
     + [Instalación](https://github.com/manuelorantes/EloPuertaElvira/issues/14)
     + [Ayuda y opciones](https://github.com/manuelorantes/EloPuertaElvira/issues/15)
+    
+### Clases creadas
+
+
+    
+ 
