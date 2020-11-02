@@ -11,4 +11,20 @@ class PlayerSpec extends ObjectBehavior
     {
         $this->shouldHaveType(Player::class);
     }
+
+    function it_initialize_name_in_good_way()
+    {
+        $this->beConstructedWith();
+        $this->getName()->shouldReturn('Nuevo alumno');
+    }
+
+
+    function it_changes_name()
+    {
+        $this->beConstructedWith('Francisco');
+        $this->getName()->shouldReturn('Francisco');
+
+        $this->setName('Manuel');
+        $this->getName()->shouldReturn('Manuel');
+    }
 }

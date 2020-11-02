@@ -2,8 +2,15 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="2a313316-3307-483d-9b69-e1a59353a1ce" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/phpspec.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/Proyecto_EloPuertaElvira.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/Proyecto_EloPuertaElvira.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/php.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/php.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/composer.json" beforeDir="false" afterPath="$PROJECT_DIR$/composer.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/composer.lock" beforeDir="false" afterPath="$PROJECT_DIR$/composer.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/phpspec.yml" beforeDir="false" afterPath="$PROJECT_DIR$/phpspec.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spec/Entity/PlayerSpec.php" beforeDir="false" afterPath="$PROJECT_DIR$/spec/Entity/PlayerSpec.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Entity/Group.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/Entity/Group.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Entity/Player.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/Entity/Player.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -49,6 +56,9 @@
       <path value="$PROJECT_DIR$/vendor/psr/container" />
       <path value="$PROJECT_DIR$/vendor/psr/event-dispatcher" />
       <path value="$PROJECT_DIR$/vendor/phpspec/phpspec" />
+      <path value="$PROJECT_DIR$/vendor/whatthejeff/nyancat-scoreboard" />
+      <path value="$PROJECT_DIR$/vendor/whatthejeff/fab" />
+      <path value="$PROJECT_DIR$/vendor/phpspec/nyan-formatters" />
     </include_path>
   </component>
   <component name="ProjectId" id="1jjkaEGm602z46GNQzwYfiiJZa6" />
@@ -72,7 +82,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1604324949133</updated>
-      <workItem from="1604324950153" duration="1587000" />
+      <workItem from="1604324950153" duration="3224000" />
     </task>
     <servers />
   </component>
