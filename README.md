@@ -1,6 +1,5 @@
-# ELO PuertaElvira
+### ELO PuertaElvira
 
-Los pasos de la configuración de GitHub se encuentran en este [enlace](https://github.com/manuelorantes/EloPuertaElvira/blob/main/ConfiguracionGitHub/README.md).
 
 # Descripción del proyecto
 
