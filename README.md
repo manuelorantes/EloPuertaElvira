@@ -59,20 +59,20 @@ En este objetivo no hay historias de usuario directas, pero en muchas de ellas e
 
 Se crearán funcionalidades de la base de datos, añadir nuevos jugadores, poder consultar el ELO actual de todos ellos, poder consultar el cambio de ELO, eliminar jugadores que ya no pertenecen al club...
 
-	- [[HU2] Añadir nuevo jugador al club](https://github.com/manuelorantes/EloPuertaElvira/issues/7)
-	- [[HU3] Quitar jugador del club](https://github.com/manuelorantes/EloPuertaElvira/issues/8)
-	- [[HU7] Añadir un alumno a una clase](https://github.com/manuelorantes/EloPuertaElvira/issues/12)
-	- [[HU8] Eliminar un alumno de una clase](https://github.com/manuelorantes/EloPuertaElvira/issues/13)
+- [[HU2] Añadir nuevo jugador al club](https://github.com/manuelorantes/EloPuertaElvira/issues/7)
+- [[HU3] Quitar jugador del club](https://github.com/manuelorantes/EloPuertaElvira/issues/8)
+- [[HU7] Añadir un alumno a una clase](https://github.com/manuelorantes/EloPuertaElvira/issues/12)
+- [[HU8] Eliminar un alumno de una clase](https://github.com/manuelorantes/EloPuertaElvira/issues/13)
 
   
 ### Tercer objetivo [(Milestone 3)](https://github.com/manuelorantes/EloPuertaElvira/milestone/4)
 
 Estará orientada a la comunicación del sistema entre sí como a poder comunicarse con el solicitante, recibiendo y transmitiendo información.
 
-	- [[HU1] Obtener el último listado de ELO](https://github.com/manuelorantes/EloPuertaElvira/issues/6)
-	- [[HU4] Obtener jugadores con ELO por primera vez](https://github.com/manuelorantes/EloPuertaElvira/issues/9)
-	- [[HU5] Obtener jugadores con ELO por primera vez](https://github.com/manuelorantes/EloPuertaElvira/issues/10)
-	- [[HU6] Obtener los últimos datos de ELO](https://github.com/manuelorantes/EloPuertaElvira/issues/11)
+- [[HU1] Obtener el último listado de ELO](https://github.com/manuelorantes/EloPuertaElvira/issues/6)
+- [[HU4] Obtener jugadores con ELO por primera vez](https://github.com/manuelorantes/EloPuertaElvira/issues/9)
+- [[HU5] Obtener jugadores con ELO por primera vez](https://github.com/manuelorantes/EloPuertaElvira/issues/10)
+- [[HU6] Obtener los últimos datos de ELO](https://github.com/manuelorantes/EloPuertaElvira/issues/11)
   
 
 ### Cuarto objetivo [(Milestone 4)](https://github.com/manuelorantes/EloPuertaElvira/milestone/6)
@@ -85,8 +85,8 @@ Aunque no hayan HU en este objetivo, se añadirán en el futuro. Además, partes
 
 Será una alpha en la que se de acceso a ciertas persnas al sistema y se compruebe si todas las funcionalidades son correctas antes de finalizar el proyecto pasando a la versión 1.0. Además, se añadirá una ayuda y la información sobre la instalación de la herramienta.
 
-	- [[HU9] Instalación](https://github.com/manuelorantes/EloPuertaElvira/issues/14)
-	- [[HU10] Ayuda y opciones](https://github.com/manuelorantes/EloPuertaElvira/issues/15)
+- [[HU9] Instalación](https://github.com/manuelorantes/EloPuertaElvira/issues/14)
+- [[HU10] Ayuda y opciones](https://github.com/manuelorantes/EloPuertaElvira/issues/15)
     
 ### Clases creadas
 
