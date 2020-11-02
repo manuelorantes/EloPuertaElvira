@@ -1,7 +1,7 @@
-### ELO PuertaElvira
+# ELO PuertaElvira
 
 
-# Descripción del proyecto
+## Descripción del proyecto
 
 El ELO en contextos de ajedrez es un ranking de puntos que se otorga a los jugadores de ajedrez según sus partidas oficiales. Hay tres clases de ELO, FADA (andaluz), FEDA (español) y FIDE (internacional). 
 
@@ -17,7 +17,7 @@ Por todo esto, se quiere crear una herramienta de ayuda en forma de API que devu
 	
 3. **Nuevos jugadores**: Informa de los nuevos jugadores que han conseguido ELO en el último periodo.
 
-# Arquitectura
+## Arquitectura
 
 Se realizará una arquitectura de microservicios, ya que esto nos ofrece que si cae un servicio los otros sigan en pie, y no se produzca un colapso total del sistema.
 
@@ -31,7 +31,7 @@ Se realizará una arquitectura de microservicios, ya que esto nos ofrece que si 
 
 5. Ante una petición de nuevos jugadores con ELO, devolverá los jugadores que obtenieron ELO por primera vez.
 
-# Herramientas
+## Herramientas
 
 1. En primer lugar usaremos [Symfony](https://symfony.com/) que es un framework muy actual de PHP que se sigue mejorando día a día. Tiene un soporte muy amplio y una documentación extensa y precisa.
 
@@ -40,17 +40,17 @@ Se realizará una arquitectura de microservicios, ya que esto nos ofrece que si 
 3. Se usará ademas docker y mysql como base de datos. Tienen ambas herramientas una implementación muy buena con symfony, lo que permite su uso muy cómodo, y mysql será suficiente para la base de datos que queremos, que no será demasiado extensa por las características del club.
 
 
-# Planificación del proyecto
+## Planificación del proyecto
 
 Además de la planificación aquí estipulada, se usará [trello](https://trello.com/b/dNqy38bk/elopuertaelvira) para ir planificando cada sprint en específico. Ahí podremos seguir paso a paso como va el desarrollo de cada proceso involucrado.
 
-## Primer objetivo
+### Primer objetivo
 
 Creación de las entidades necesarias para manejar toda la información.
   - [Creación de entidades básicas](https://github.com/manuelorantes/EloPuertaElvira/milestone/3)
 
 
-## Segundo objetivo
+### Segundo objetivo
 
 Se crearán funcionalidades de la base de datos, añadir nuevos jugadores, poder consultar el ELO actual de todos ellos, poder consultar el cambio de ELO, eliminar jugadores que ya no pertenecen al club...
 
@@ -61,7 +61,7 @@ Se crearán funcionalidades de la base de datos, añadir nuevos jugadores, poder
     + [Quitar jugador del club](https://github.com/manuelorantes/EloPuertaElvira/issues/8)
   
   
-## Tercer objetivo
+### Tercer objetivo
 
 Estará orientada a la comunicación del sistema entre sí como a poder comunicarse con el solicitante, recibiendo y transmitiendo información.
 
@@ -70,13 +70,13 @@ Estará orientada a la comunicación del sistema entre sí como a poder comunica
     + [Obtener jugadores con ELO por primera vez](https://github.com/manuelorantes/EloPuertaElvira/issues/10)
   
 
-## Cuarto objetivo
+### Cuarto objetivo
 
 Se añadirán los roles, que serán el administrador, los profesores y los usuarios estandar. Los profesores podrán añadir y eliminar alumnos de sus clases, mientras que el administrador podrá hacer lo propio pero en el sistema. Los usuarios estandar solo podrán consultar datos.
 
   - [Añadir roles](https://github.com/manuelorantes/EloPuertaElvira/milestone/6)
 
-## Quinto objetivo
+### Quinto objetivo
 
 Será una alpha en la que se de acceso a ciertas persnas al sistema y se compruebe si todas las funcionalidades son correctas antes de finalizar el proyecto pasando a la versión 1.0. Además, se añadirá una ayuda y la información sobre la instalación de la herramienta.
 
