@@ -19,9 +19,9 @@ Por todo esto, se quiere crear una herramienta de ayuda en forma de API que devu
 
 ## Arquitectura
 
-Para este proyecto se usará una arquitectura en capas. Este tipo de arquitectura es perfecta para mi aplicación ya que habrá una capa que acceda a los datos, otra que haga la parte lógica de la aplicación y por último la de la propia aplicación. 
+Para este proyecto se usará una arquitectura en capas. Este tipo de arquitectura es perfecta para mi aplicación ya que habrá una capa que acceda a los datos, otra que haga la parte lógica de la aplicación y, por último, la de la propia aplicación. 
 
-El principal problema de este tipo de arquitecturas es que solo permiten el escalado dentro de cada una de las capas, pero no tendremos problemas de cuyo de botella en nuestro caso ya que la carga de cada una de las capas va a seer muy libiana, ya que no necesitamos ni una gran base de datos ni un gran proceso de cálculo para nuestra API, que va muy liagada a un grupo de jugadores específicos bastante reducidos y la lógica que hay detrás no tiene carga computacional.
+El principal problema de este tipo de arquitecturas es que solo permiten el escalado dentro de cada una de las capas, pero no tendremos problemas de cuello de botella en nuestro caso ya que la carga de cada una de las capas va a ser muy liviana, ya que no necesitamos una gran base de datos ni tan siquiera un gran proceso de cálculo para nuestra API, ya que va muy liagada a un grupo de jugadores específicos bastante reducido y la lógica que hay detrás no tiene carga computacional alta.
 
 ## Herramientas
 
