@@ -23,11 +23,11 @@ Para este proyecto se usará una arquitectura en capas. Este tipo de arquitectur
 
 El principal problema de este tipo de arquitecturas es que solo permiten el escalado dentro de cada una de las capas, pero no tendremos problemas de cuello de botella en nuestro caso ya que la carga de cada una de las capas va a ser muy liviana. No necesitamos una gran base de datos ni tan siquiera un gran proceso de cálculo para nuestra API, ya que va muy liagada a un grupo de jugadores específicos bastante reducido y la lógica que hay detrás no tiene carga computacional alta.
 
-## Herramientas
+//## Herramientas
 
-1. En primer lugar usaremos [Symfony](https://symfony.com/) que es un framework muy actual de PHP que se sigue mejorando día a día. Tiene un soporte muy amplio y una documentación extensa y precisa.
+//1. En primer lugar usaremos [Symfony](https://symfony.com/) que es un framework muy actual de PHP que se sigue mejorando día a día. Tiene un soporte muy amplio y una documentación extensa y precisa.
 
-2. Para el desarrollo de test se usarán tanto [PHPUnit](https://phpunit.de/) que tiene una amplia y depurada [documentacion](https://phpunit.readthedocs.io/es/latest/) (incluso en español) y [PHPSpec](http://www.phpspec.net/en/stable/). Se usarán ambos ya que PHPUnit permite las tres clases de test y PHPSpec, aunque solo permite test unitarios, tiene una gran potencia y además tiene funciones que nos permiten programar enfocados a BDD y TDD.
+//2. Para el desarrollo de test se usarán tanto [PHPUnit](https://phpunit.de/) que tiene una amplia y depurada [documentacion](https://phpunit.readthedocs.io/es/latest/) (incluso en español) y [PHPSpec](http://www.phpspec.net/en/stable/). Se usarán ambos ya que PHPUnit permite las tres clases de test y PHPSpec, aunque solo permite test unitarios, tiene una gran potencia y además tiene funciones que nos permiten programar enfocados a BDD y TDD.
 
 
 
