@@ -2,19 +2,14 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="2a313316-3307-483d-9b69-e1a59353a1ce" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/cc.yaml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tutorial/src/Entity/Security.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tutorial/src/Exception/DinosaursAreRunningRampantException.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tutorial/src/Exception/NotABuffetException.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tutorial/src/Service/EntityManagerInterface.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../README.md" beforeDir="false" afterPath="$PROJECT_DIR$/../README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
-  <component name="ComposerSettings" synchronizationState="SYNCHRONIZE">
+  <component name="ComposerSettings" doNotAsk="true" synchronizationState="SYNCHRONIZE">
     <pharConfigPath>$PROJECT_DIR$/composer.json</pharConfigPath>
     <execution />
   </component>
@@ -79,7 +74,8 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1604324949133</updated>
-      <workItem from="1604324950153" duration="5882000" />
+      <workItem from="1604324950153" duration="6252000" />
+      <workItem from="1604385691864" duration="327000" />
     </task>
     <servers />
   </component>

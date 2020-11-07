@@ -19,17 +19,9 @@ Por todo esto, se quiere crear una herramienta de ayuda en forma de API que devu
 
 ## Arquitectura
 
-Se realizará una arquitectura de microservicios, ya que esto nos ofrece que si cae un servicio los otros sigan en pie, y no se produzca un colapso total del sistema.
+Para este proyecto se usará una arquitectura en capas. Este tipo de arquitectura es perfecta para mi aplicación ya que habrá una capa que acceda a los datos, otra que haga la parte lógica de la aplicación y por último la de la propia aplicación. 
 
-1. En primer lugar, habrá un microservicio que solo estará encargado de obtener los datos cuando estos se actualicen en la página de la [FADA](http://www.gefe.net/mygefe2/ZPEligeDescargaElo.asp)
-
-2. El segundo microservicio estará encargado de enviar los datos del último cambio de ELO. Enviará el nombre de los jugadores, el nuevo ELO que posean y el cambio frente al mes pasado.
-
-3. El tercero obtendrá el nombre de un jugador y devolverá la evolución de ELO de este jugador a lo largo del tiempo.
-
-4. Se encargará solamente de ver si nuevos jugadores del club han obtenido ELO. Si es así, lo añadirá a la base de datos actual.
-
-5. Ante una petición de nuevos jugadores con ELO, devolverá los jugadores que obtenieron ELO por primera vez.
+El principal problema de este tipo de arquitecturas es que solo permiten el escalado dentro de cada una de las capas, pero no tendremos problemas de cuyo de botella en nuestro caso ya que la carga de cada una de las capas va a seer muy libiana, ya que no necesitamos ni una gran base de datos ni un gran proceso de cálculo para nuestra API, que va muy liagada a un grupo de jugadores específicos bastante reducidos y la lógica que hay detrás no tiene carga computacional.
 
 ## Herramientas
 
