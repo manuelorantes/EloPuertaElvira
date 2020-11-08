@@ -19,13 +19,13 @@ Por todo esto, se quiere crear una herramienta de ayuda en forma de API que devu
 
 ## Arquitectura
 
-Para este proyecto se usará una arquitectura en capas. Este tipo de arquitectura es perfecta para mi aplicación ya que habrá una capa que acceda a los datos, otra que haga la parte lógica de la aplicación y, por último, la de la propia aplicación. 
-
-El principal problema de este tipo de arquitecturas es que solo permiten el escalado dentro de cada una de las capas, pero no tendremos problemas de cuello de botella en nuestro caso ya que la carga de cada una de las capas va a ser muy liviana. No necesitamos una gran base de datos ni tan siquiera un gran proceso de cálculo para nuestra API, ya que va muy liagada a un grupo de jugadores específicos bastante reducido y la lógica que hay detrás no tiene carga computacional alta.
-
-
+Para el proyecto se ha decidido que se use una arquitectura de microservicios. Esto nos permite que, si un servicio se cae, puedan seguir los demás, de modo que no se realice una interrupción total de la aplicación. Además, podemos tratar distintos ámbitospor separado, y así poder aislarlos como es debido, desde la gestión de usuarios o la integración de grupos de ajedrez hasta los procedimientos relacionados con las consultas. 
+Se han estado pensado en otro tipo de arquitecturas. Una arquitectura monolítica quedó descarta pronto, pero no fué así con una arquitectura de capas. Esta ofrecía a priori justo lo que necesitabamos: una capa de aplicación, una lógica en la que se realizaba todos los cáculos y otra última de acceso a los datos. Parecía la arquitectura ideal, pero tiene un gran problema de cara a la posible proyección de la aplicación: solo permite escalado dentro de cada una de las capas. Pero, ¿por qué esto puede llegar a ser un problema si nos encontramos en una aplicación destinada a un club pequeño? A priori, no parece que necesitemos mucho escalado, con pocas personas y pocas funcionalidades. La respuesta es, que si todo sale adelante y es un éxito, sería posible enfocar el proyecto no solo a un club, sino a toda la provincia de Granada, y quien sabe, a Andalucía. Esto traería una carga mucho más significativa, y seguramente necesitaríamos nuevas funcionalidades, y no podemos permitir que en el fututo aparezcan los cuellos de botella. Por este mismo motivo descartamos también la opción de arquitecturas microkernel.
+Por último descartamos las arquitecturas dirigidas por eventos por su complejidad y problemas que saldrían a la hora de realizar los test.
 
 ## Planificación del proyecto
+
+
 
 ### Primer objetivo [(Milestone 1)](https://github.com/manuelorantes/EloPuertaElvira/milestone/3)
 
