@@ -20,10 +20,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="2a313316-3307-483d-9b69-e1a59353a1ce" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/spec/Entity/GroupSpec.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/spec/Entity/PlayerSpec.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/spec/Entity/TeacherSpec.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Entity/Player.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/Entity/Player.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cc.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/cc.yaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Entity/Group.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Entity/Teacher.php" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -97,7 +96,7 @@
       <updated>1604324949133</updated>
       <workItem from="1604324950153" duration="6252000" />
       <workItem from="1604385691864" duration="327000" />
-      <workItem from="1604954229374" duration="226000" />
+      <workItem from="1604954229374" duration="647000" />
     </task>
     <servers />
   </component>
