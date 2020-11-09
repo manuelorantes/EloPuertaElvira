@@ -25,72 +25,42 @@ Se han estado pensado en otro tipo de arquitecturas. Una arquitectura monolític
 
 Por último descartamos las arquitecturas dirigidas por eventos por su complejidad y problemas que saldrían a la hora de realizar los test.
 
+
 ## Planificación del proyecto
 
 
 
-### Primer objetivo [(Milestone 1)](https://github.com/manuelorantes/EloPuertaElvira/milestone/3)
+### Primer objetivo [(Milestone 1)](https://github.com/manuelorantes/EloPuertaElvira/milestone/1)
 
-Creación de las entidades necesarias para manejar toda la información.
+Al final de este primer hito podremos manejar toda la información relacionada con el club. Será viable toda la gestión de todos los miembros del club. Podremos tener almacenados tanto los miembros, los profesores y los jugadores. Además, también estará la gestión de los grupos de las clases, en las que habrá tanto gente del club como otros alumnos que no necesariamente pertenecen al club.
 
-En este objetivo no hay historias de usuario directas, pero en muchas de ellas es necesario este primer objetivo. Para ver algunas de las cosas que se realizarán en este objetivo, vemos un par de issues:
+Actualmente, no está la aplicación diseñada para gestionar el pago de las clases, pero es posible que en el futuro se añadan estas funcionalidades, y como consecuencia no se cierra la puerta a que haya nuevas historias de usuario.
 
-- [Crear entidad profesor](https://github.com/manuelorantes/EloPuertaElvira/issues/17)
-- [Crear entidad ELO](https://github.com/manuelorantes/EloPuertaElvira/issues/32)
+A continuación podemos apreciar las historias de usuario asociadas a este hito:
+
+- [Añadir un nuevo jugador al club](https://github.com/manuelorantes/EloPuertaElvira/issues/7)
+- [Quitar un jugador del club](https://github.com/manuelorantes/EloPuertaElvira/issues/8)
+- [Añadir un alumno a una clase](https://github.com/manuelorantes/EloPuertaElvira/issues/12)
+- [Eliminar un alumno de una clase](https://github.com/manuelorantes/EloPuertaElvira/issues/13)
 
 
-### Segundo objetivo [(Milestone 2)](https://github.com/manuelorantes/EloPuertaElvira/milestone/5)
+### Segundo objetivo [(Milestone 2)](https://github.com/manuelorantes/EloPuertaElvira/milestone/2)
 
-Se crearán funcionalidades de la base de datos, añadir nuevos jugadores, poder consultar el ELO actual de todos ellos, poder consultar el cambio de ELO, eliminar jugadores que ya no pertenecen al club...
+El segundo hito está más enfocado a los temas relacionados con el ELO. Podremos actualizar la informacion del ELO, buscar la trayectoria de un jugador a lo largo del tiempo, ver que jugadores han conseguido ELO por primera vez en su vida y, por supuesto, obtener un listado del cambio del ELO de todos los jugadores, tanto de los que ganan como de los que pierden. Esto nos permitirá consultar la aplicación cada mes para facilitar al cm del club el hecho de hacer publicaciones mucho más personalizadas enfocadas a mejorar la imagen del club.
 
-- [[HU2] Añadir nuevo jugador al club](https://github.com/manuelorantes/EloPuertaElvira/issues/7)
-- [[HU3] Quitar jugador del club](https://github.com/manuelorantes/EloPuertaElvira/issues/8)
-- [[HU7] Añadir un alumno a una clase](https://github.com/manuelorantes/EloPuertaElvira/issues/12)
-- [[HU8] Eliminar un alumno de una clase](https://github.com/manuelorantes/EloPuertaElvira/issues/13)
+Algunas de las historias de usuario que se cumplirán con este hito son las siguientes:
 
-  
-### Tercer objetivo [(Milestone 3)](https://github.com/manuelorantes/EloPuertaElvira/milestone/4)
+- [Subir los datos de ELO](https://github.com/manuelorantes/EloPuertaElvira/issues/11)
+- [Saber que jugadores han obtenido ELO por primera vez](https://github.com/manuelorantes/EloPuertaElvira/issues/10)
+- [Obtener el histórico de ELO de un jugador](https://github.com/manuelorantes/EloPuertaElvira/issues/9)
+- [Obtener el mejor jugador mensual](https://github.com/manuelorantes/EloPuertaElvira/issues/38)
+- [Obtener los cambios de ELO del último mes](https://github.com/manuelorantes/EloPuertaElvira/issues/6)
 
-Estará orientada a la comunicación del sistema entre sí como a poder comunicarse con el solicitante, recibiendo y transmitiendo información.
-
-- [[HU1] Obtener el último listado de ELO](https://github.com/manuelorantes/EloPuertaElvira/issues/6)
-- [[HU4] Obtener jugadores con ELO por primera vez](https://github.com/manuelorantes/EloPuertaElvira/issues/9)
-- [[HU5] Obtener jugadores con ELO por primera vez](https://github.com/manuelorantes/EloPuertaElvira/issues/10)
-- [[HU6] Obtener los últimos datos de ELO](https://github.com/manuelorantes/EloPuertaElvira/issues/11)
-  
-
-### Cuarto objetivo [(Milestone 4)](https://github.com/manuelorantes/EloPuertaElvira/milestone/6)
-
-Se añadirán los roles, que serán el administrador, los profesores y los usuarios estandar. Los profesores podrán añadir y eliminar alumnos de sus clases, mientras que el administrador podrá hacer lo propio pero en el sistema. Los usuarios estandar solo podrán consultar datos.
-
-Aunque no hayan HU en este objetivo, se añadirán en el futuro. Además, partes de otras HU están presentes en este objetivo, y correspondientemente vincualadas con la [milestone 4](https://github.com/manuelorantes/EloPuertaElvira/milestone/6).
-
-### Quinto objetivo [(Milestone 5)](https://github.com/manuelorantes/EloPuertaElvira/milestone/7)
-
-Será una alpha en la que se de acceso a ciertas persnas al sistema y se compruebe si todas las funcionalidades son correctas antes de finalizar el proyecto pasando a la versión 1.0. Además, se añadirá una ayuda y la información sobre la instalación de la herramienta.
-
-- [[HU9] Instalación](https://github.com/manuelorantes/EloPuertaElvira/issues/14)
-- [[HU10] Ayuda y opciones](https://github.com/manuelorantes/EloPuertaElvira/issues/15)
-    
 ## Clases creadas
 
 Se ha avanzado en las siguientes historias de usuario:
 
-- [[HU2] Añadir nuevo jugador al club](https://github.com/manuelorantes/EloPuertaElvira/issues/7)
-  + Se crea la clase [Player](https://github.com/manuelorantes/EloPuertaElvira/blob/main/Proyecto_EloPuertaElvira/src/Entity/Player.php), que se usará para controlar todo lo referente a los jugadores.
 
-- [[HU3] Quitar jugador del club](https://github.com/manuelorantes/EloPuertaElvira/issues/8)
-  + Se crea la clase [Player](https://github.com/manuelorantes/EloPuertaElvira/blob/main/Proyecto_EloPuertaElvira/src/Entity/Player.php), que se usará para controlar todo lo referente a los jugadores.
-
-- [[HU7] Añadir un alumno a una clase](https://github.com/manuelorantes/EloPuertaElvira/issues/12)
-  + Se crea la clase [Player](https://github.com/manuelorantes/EloPuertaElvira/blob/main/Proyecto_EloPuertaElvira/src/Entity/Player.php), que se usará para controlar todo lo referente a los jugadores.
-  + Se crea la clase [Teacher](https://github.com/manuelorantes/EloPuertaElvira/blob/main/Proyecto_EloPuertaElvira/src/Entity/Teacher.php), que servirá para gestionar todo lo relacionado con los profesores. Podrá controlar sus grupos y tendremos información sobre sus horas, salario, etc...
-  + Se crea la clase [Group](https://github.com/manuelorantes/EloPuertaElvira/blob/main/Proyecto_EloPuertaElvira/src/Entity/Group.php), que servirá para gestionar las distintas clases que hay dentro del club. Un profesor puede manejar más de una clase.
-
-- [[HU8] Eliminar un alumno de una clase](https://github.com/manuelorantes/EloPuertaElvira/issues/13)
-  + Se crea la clase [Player](https://github.com/manuelorantes/EloPuertaElvira/blob/main/Proyecto_EloPuertaElvira/src/Entity/Player.php), que se usará para controlar todo lo referente a los jugadores.
-  + Se crea la clase [Group](https://github.com/manuelorantes/EloPuertaElvira/blob/main/Proyecto_EloPuertaElvira/src/Entity/Group.php), que servirá para gestionar las distintas clases que hay dentro del club. Un profesor puede manejar más de una clase.
-  + Se crea la clase [Teacher](https://github.com/manuelorantes/EloPuertaElvira/blob/main/Proyecto_EloPuertaElvira/src/Entity/Teacher.php), que servirá para gestionar todo lo relacionado con los profesores. Podrá controlar sus grupos y tendremos información sobre sus horas, salario, etc...
 
 Podemos ver además la estructura de las clases y carpetas en el archivo [cc.yaml](https://github.com/manuelorantes/EloPuertaElvira/blob/main/Proyecto_EloPuertaElvira/cc.yaml).
  
