@@ -42,6 +42,8 @@ A continuación podemos apreciar las historias de usuario asociadas a este hito:
 - [Quitar un jugador del club](https://github.com/manuelorantes/EloPuertaElvira/issues/8)
 - [Añadir un alumno a una clase](https://github.com/manuelorantes/EloPuertaElvira/issues/12)
 - [Eliminar un alumno de una clase](https://github.com/manuelorantes/EloPuertaElvira/issues/13)
+- [Marcar un jugador como miembro del club](https://github.com/manuelorantes/EloPuertaElvira/issues/39)
+- [Desmarcar un jugador como miembro del club](https://github.com/manuelorantes/EloPuertaElvira/issues/40)
 
 
 ### Segundo objetivo [(Milestone 2)](https://github.com/manuelorantes/EloPuertaElvira/milestone/2)
