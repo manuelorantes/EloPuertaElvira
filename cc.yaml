@@ -1,4 +1,4 @@
 ---
-entity:
+entidad:
   - src/Entity/Player.php
   - src/Entity/Group.php
