@@ -63,11 +63,11 @@ Algunas de las historias de usuario que se cumplirán con este hito son las sigu
 Se ha avanzado en las siguientes historias de usuario:
 
 - [[HU1] Añadir un nuevo jugador al club](https://github.com/manuelorantes/EloPuertaElvira/issues/7)
-  + Se ha creado la entidad [Jugador](https://github.com/manuelorantes/EloPuertaElvira/blob/main/Proyecto_EloPuertaElvira/src/Entity/Player.php) con todos los atributos necesarios. 
+  + Se ha creado la entidad [Jugador](https://github.com/manuelorantes/EloPuertaElvira/blob/main/src/Entity/Player.php) con todos los atributos necesarios. 
 
 - [[HU3] Añadir un alumno a una clase](https://github.com/manuelorantes/EloPuertaElvira/issues/12)
-  + Se ha cread los inicios de la clase [Grupos](https://github.com/manuelorantes/EloPuertaElvira/blob/main/Proyecto_EloPuertaElvira/src/Entity/Group.php).
+  + Se ha cread los inicios de la clase [Grupos](https://github.com/manuelorantes/EloPuertaElvira/blob/main/src/Entity/Group.php).
 
 
-Podemos ver además la estructura de las clases y carpetas en el archivo [cc.yaml](https://github.com/manuelorantes/EloPuertaElvira/blob/main/Proyecto_EloPuertaElvira/cc.yaml).
+Podemos ver además la estructura de las clases y carpetas en el archivo [cc.yaml](https://github.com/manuelorantes/EloPuertaElvira/blob/main/cc.yaml).
  
