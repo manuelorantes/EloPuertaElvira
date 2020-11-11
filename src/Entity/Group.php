@@ -3,21 +3,26 @@
 
 namespace App\Entity;
 
-use App\Entity\Player;
-use phpDocumentor\Reflection\Types\Collection;
 
 class Group
 {
-    /**
-     * @var Collection
-     */
-    private $students;
-    private $prize;
-    private $level;
-    private $teacher;
 
-    public function addStudent(Player $student)
+    private array $players = [];
+    private int $prize;
+
+    public const LOW = 'initiation';
+    public const NORMAL = 'medium';
+    public const HIGH = 'advance';
+    public const EPIC = 'highest';
+    public const GROUP_LEVELS = [
+        self::LOW,
+        self::NORMAL,
+        self::HIGH,
+        self::EPIC,
+    ];
+
+    public function addStudent(Player $player) :void
     {
-        $this->students[] = $student;
+        $this->players[] = $player;
     }
 }

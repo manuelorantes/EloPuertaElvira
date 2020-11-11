@@ -6,16 +6,16 @@ class Player
 {
     private string $name;
     private string $surname;
-    private boolean $isMinor;
+    private bool $isMinor;
     private ?string $tutor;
     private ?string $direction;
     private ?string $email;
     private string $phoneNumber;
-    private boolean $isMember;
-    private boolean $isAllowPublishPhotos;
-    private boolean $isAllowWhatsApp;
+    private bool $isMember;
+    private bool $isAllowPublishPhotos;
+    private bool $isAllowWhatsApp;
 
-    public function __construct(string $name, string $surname, bool $isMinor, ?string $tutor, boolean $allowPublish, boolean $allowWhatsApp)
+    public function __construct(string $name, string $surname, bool $isMinor, ?string $tutor, bool $allowPublish, bool $allowWhatsApp)
     {
         $this->name = $name;
         $this->surname = $surname;
@@ -46,7 +46,7 @@ class Player
         $this->email = $email;
     }
 
-    public function setPhoneNumber(?string $phoneNumber)
+    public function setPhoneNumber(string $phoneNumber)
     {
         $this->phoneNumber = $phoneNumber;
     }
