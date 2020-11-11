@@ -67,7 +67,7 @@ Se ha avanzado en las siguientes historias de usuario:
   + El atributo $isMember de la clase [Jugador](https://github.com/manuelorantes/EloPuertaElvira/blob/main/src/Entity/Player.php) servirá para indicar si dicho jugador es miembro del club o no, ya que puede ser jugador del club al que se le de clase pero, además, puede ser miembro del club pagando una tasa anual y disfrutando de otras ventajas (comidas grupales, torneos personalizados...).
 
 - [[HU3] Añadir un alumno a una clase](https://github.com/manuelorantes/EloPuertaElvira/issues/12)
-  + Se ha cread los inicios de la clase [Grupos](https://github.com/manuelorantes/EloPuertaElvira/blob/main/src/Entity/Group.php).
+  + Se ha creado los inicios de la clase [Grupos](https://github.com/manuelorantes/EloPuertaElvira/blob/main/src/Entity/Group.php).
 
 
 Podemos ver además la estructura de las clases y carpetas en el archivo [cc.yaml](https://github.com/manuelorantes/EloPuertaElvira/blob/main/cc.yaml).
