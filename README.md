@@ -63,7 +63,7 @@ Algunas de las historias de usuario que se cumplirán con este milestone son las
 Se ha avanzado en las siguientes historias de usuario:
 
 - [[HU1] Añadir un nuevo jugador al club](https://github.com/manuelorantes/EloPuertaElvira/issues/7)
-  + Se ha creado la entidad [Jugador](https://github.com/manuelorantes/EloPuertaElvira/blob/main/src/Entity/Player.php) con todos los atributos necesarios. 
+  + Se ha creado la entidad [Jugador](https://github.com/manuelorantes/EloPuertaElvira/blob/main/src/Entity/Player.php) con todos los atributos necesarios. Esta clase servirá para guardar toda la información necesaria del jugador, por lo que, para crear un jugador, necesitamos esta clase. En el futuro habrá una clase Club en la cual estén representados todos los jugadores del club con un array de instancias de la clase Jugador.
   + El atributo $isMember de la clase [Jugador](https://github.com/manuelorantes/EloPuertaElvira/blob/main/src/Entity/Player.php) servirá para indicar si dicho jugador es miembro del club o no, ya que puede ser jugador del club al que se le de clase pero, además, puede ser miembro del club pagando una tasa anual y disfrutando de otras ventajas (comidas grupales, torneos personalizados...).
 
 - [[HU3] Añadir un alumno a una clase](https://github.com/manuelorantes/EloPuertaElvira/issues/12)
