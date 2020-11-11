@@ -64,6 +64,7 @@ Se ha avanzado en las siguientes historias de usuario:
 
 - [[HU1] Añadir un nuevo jugador al club](https://github.com/manuelorantes/EloPuertaElvira/issues/7)
   + Se ha creado la entidad [Jugador](https://github.com/manuelorantes/EloPuertaElvira/blob/main/src/Entity/Player.php) con todos los atributos necesarios. 
+  + El atributo $isMember de la clase [Jugador](https://github.com/manuelorantes/EloPuertaElvira/blob/main/src/Entity/Player.php) servirá para indicar si dicho jugador es miembro del club o no, ya que puede ser jugador del club al que se le de clase pero, además, puede ser miembro del club pagando una tasa anual y disfrutando de otras ventajas (comidas grupales, torneos personalizados...).
 
 - [[HU3] Añadir un alumno a una clase](https://github.com/manuelorantes/EloPuertaElvira/issues/12)
   + Se ha cread los inicios de la clase [Grupos](https://github.com/manuelorantes/EloPuertaElvira/blob/main/src/Entity/Group.php).
