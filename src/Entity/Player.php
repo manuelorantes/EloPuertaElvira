@@ -5,51 +5,22 @@ namespace App\Entity;
 class Player
 {
     private string $name;
-    private string $surname;
-    private bool $isMinor;
-    private ?string $tutor;
-    private ?string $direction;
-    private ?string $email;
-    private string $phoneNumber;
-    private bool $isMember;
-    private bool $isAllowPublishPhotos;
-    private bool $isAllowWhatsApp;
+    private int $elo;
 
-    public function __construct(string $name, string $surname, bool $isMinor, ?string $tutor, bool $allowPublish, bool $allowWhatsApp)
+    public function __construct(string $name, int $elo)
     {
         $this->name = $name;
-        $this->surname = $surname;
-        $this->isMinor = $isMinor;
-        $this->tutor = $tutor;
-        $this->isMember = false;
-        $this->isAllowPublishPhotos = $allowPublish;
-        $this->isAllowWhatsApp = $allowWhatsApp;
+        $this->elo = $elo;
     }
 
-    public function addMember()
+    public function getElo() :int
     {
-        if ($this->isMember === false){
-            $this->isMember = true;
-        }
-        else {
-            assert(true == false, 'The player is a member!');
-        }
+       return $this->elo;
     }
 
-    public function setDirection(?string $direction)
+    public function setElo(int $newElo) :void
     {
-        $this->direction = $direction;
+        $this->elo = $newElo;
     }
-
-    public function setEmail(?string $email)
-    {
-        $this->email = $email;
-    }
-
-    public function setPhoneNumber(string $phoneNumber)
-    {
-        $this->phoneNumber = $phoneNumber;
-    }
-
 
 }
