@@ -1,4 +1,6 @@
 ---
 entidad:
-  - src/Entity/Player.php
+  - src/Entity/Admin.php
+  - src/Entity/Club.php
   - src/Entity/Group.php
+  - src/Entity/Player.php
