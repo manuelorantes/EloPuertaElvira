@@ -21,7 +21,7 @@ class Group
         self::EPIC,
     ];
 
-    public function addStudent(Player $player) :void
+    public function addPlayer(Player $player) :void
     {
         $this->players[] = $player;
     }
