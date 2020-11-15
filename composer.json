@@ -3,7 +3,9 @@
     "type": "project",
     "require-dev": {
         "phpspec/phpspec": "^6.3",
-        "phpspec/nyan-formatters": "dev-master"
+        "phpspec/nyan-formatters": "dev-master",
+        "reisraff/phulp": "^2.1",
+        "phpunit/phpunit": "^9.4"
     },
     "config": {
         "platform": {}
