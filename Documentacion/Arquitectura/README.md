@@ -1,25 +1,8 @@
-## Arquitectura y herramientas seleccionadas
+## Arquitectura
 
-# Arquitectura
+Para el proyecto se ha decidido que se use una arquitectura de microservicios. Esto nos permite que, si un servicio se cae, puedan seguir los demás, de modo que no se realice una interrupción total de la aplicación. Además, podemos tratar distintos ámbitospor separado, y así poder aislarlos como es debido, desde la gestión de usuarios o la integración de grupos de ajedrez hasta los procedimientos relacionados con las consultas. 
 
-Se realizará una arquitectura de microservicios, ya que esto nos ofrece que si cae un servicio los otros sigan en pie, y no se produzca un colapso total del sistema.
+Se han estado pensado en otro tipo de arquitecturas. Una arquitectura monolítica quedó descarta pronto, pero no fué así con una arquitectura de capas. Esta ofrecía a priori justo lo que necesitabamos: una capa de aplicación, una lógica en la que se realizaba todos los cáculos y otra última de acceso a los datos. Parecía la arquitectura ideal, pero tiene un gran problema de cara a la posible proyección de la aplicación: solo permite escalado dentro de cada una de las capas. Pero, ¿por qué esto puede llegar a ser un problema si nos encontramos en una aplicación destinada a un club pequeño? A priori, no parece que necesitemos mucho escalado, con pocas personas y pocas funcionalidades. La respuesta es, que si todo sale adelante y es un éxito, sería posible enfocar el proyecto no solo a un club, sino a toda la provincia de Granada, y quien sabe, a Andalucía. Esto traería una carga mucho más significativa, y seguramente necesitaríamos nuevas funcionalidades, y no podemos permitir que en el fututo aparezcan los cuellos de botella. Por este mismo motivo descartamos también la opción de arquitecturas microkernel.
 
-1. En primer lugar, habrá un microservicio que solo estará encargado de obtener los datos cuando estos se actualicen en la página de la [FADA](http://www.gefe.net/mygefe2/ZPEligeDescargaElo.asp)
-
-2. El segundo microservicio estará encargado de enviar los datos del último cambio de ELO. Enviará el nombre de los jugadores, el nuevo ELO que posean y el cambio frente al mes pasado.
-
-3. El tercero obtendrá el nombre de un jugador y devolverá la evolución de ELO de este jugador a lo largo del tiempo.
-
-4. Se encargará solamente de ver si nuevos jugadores del club han obtenido ELO. Si es así, lo añadirá a la base de datos actual.
-
-5. Ante una petición de nuevos jugadores con ELO, devolverá los jugadores que obtenieron ELO por primera vez.
-
-# Herramientas
-
-1. En primer lugar usaremos [Symfony](https://symfony.com/) que es un framework muy actual de PHP que se sigue mejorando día a día. Tiene un soporte muy amplio y una documentación extensa y precisa.
-
-2. Para el desarrollo de test se usarán tanto [PHPUnit](https://phpunit.de/) que tiene una amplia y depurada [documentacion](https://phpunit.readthedocs.io/es/latest/) (incluso en español) y [PHPSpec](http://www.phpspec.net/en/stable/). Se usarán ambos ya que PHPUnit permite las tres clases de test y PHPSpec, aunque solo permite test unitarios, tiene una gran potencia y además tiene funciones que nos permiten programar enfocados a BDD y TDD.
-
-3. Se usará ademas docker y mysql como base de datos. Tienen ambas herramientas una implementación muy buena con symfony, lo que permite su uso muy cómodo, y mysql será suficiente para la base de datos que queremos, que no será demasiado extensa por las características del club.
-
+Por último descartamos las arquitecturas dirigidas por eventos por su complejidad y problemas que saldrían a la hora de realizar los test.
 
