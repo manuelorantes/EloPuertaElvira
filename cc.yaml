@@ -4,3 +4,12 @@ entidad:
   - src/Entity/Club.php
   - src/Entity/Group.php
   - src/Entity/Player.php
+
+lenguaje:
+  - php
+
+test:
+  - Tests/Entity/AdminTest.php
+
+fichero-tareas:
+  - gulpfile.js
