@@ -7,6 +7,4 @@ gulp.task('tests', async function() {
   });
 });
 
-gulp.task('default', function() {
-  gulp.watch('**/*.php', {debounceDelay: 2000}, ['phpunit']);
-});
+//TODO Crear gulp install
