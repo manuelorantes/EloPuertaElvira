@@ -23,8 +23,7 @@ class AdminTest extends TestCase
         $admin->addPlayerToClub($playerLucas);
     }
 
-
-    public function testICantAddAMemberToClubWhenHeIsAlreadyInTheClub(): void
+    public function testICantAddAPlayerToClubWhenHeIsAlreadyInTheClub(): void
     {
         $admin = new Admin("Club Ajedrez Puerta Elvira");
 
@@ -35,5 +34,18 @@ class AdminTest extends TestCase
         $this->expectException(AlreadyIsInTheClubExpection::class);
 
         $admin->addPlayerToClub($playerLucas);
+    }
+
+    public function testICanAddAPlayerToTheClub(): void
+    {
+        $admin = new Admin("Club Ajedrez Puerta Elvira");
+
+        $playerLucas = new Player("Lucas Montes Molina");
+
+        $admin->addPlayerToClub($playerLucas);
+
+        self::assertContains($playerLucas, $admin->getClub()->getPlayers());
+        self::assertNotContains($playerLucas, $admin->getClub()->getMembers());
+        self::assertSame($playerLucas->getName(), "Lucas Montes Molina");
     }
 }
