@@ -48,4 +48,17 @@ class AdminTest extends TestCase
         self::assertNotContains($playerLucas, $admin->getClub()->getMembers());
         self::assertSame($playerLucas->getName(), "Lucas Montes Molina");
     }
+
+    public function testICanAddAMemberToTheClub(): void
+    {
+        $admin = new Admin("Club Ajedrez Puerta Elvira");
+
+        $playerLucas = new Player("Lucas Montes Molina");
+
+        $admin->addPlayerToClub($playerLucas, true);
+
+        self::assertContains($playerLucas, $admin->getClub()->getPlayers());
+        self::assertContains($playerLucas, $admin->getClub()->getMembers());
+        self::assertSame($playerLucas->getName(), "Lucas Montes Molina");
+    }
 }
