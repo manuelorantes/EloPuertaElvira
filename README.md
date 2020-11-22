@@ -18,3 +18,6 @@ Por todo esto, se quiere crear una herramienta de ayuda en forma de API que devu
 3. **Nuevos jugadores**: Informa de los nuevos jugadores que han conseguido ELO en el último periodo.
 
 
+# Referente al hito 2
+
+En el siguiente [enlace](https://github.com/manuelorantes/EloPuertaElvira/tree/main/Documentacion/Hito%202) podemos ver todo lo que se ha realizado para el hito2.
