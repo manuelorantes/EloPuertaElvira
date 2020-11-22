@@ -11,5 +11,5 @@ lenguaje:
 test:
   - Tests/Entity/AdminTest.php
 
-fichero-tareas:
+fichero_tareas:
   - gulpfile.js
