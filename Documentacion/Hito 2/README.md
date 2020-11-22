@@ -14,6 +14,14 @@ Por lo tanto, instalé [gulp](https://gulpjs.com/docs/en/getting-started/quick-s
 
 ## Elección y justificación de la biblioteca de aserciones usada
 
+En primer lugar, al buscar bibliotecas de aserciones usadas y php lo primero que encontramos son las aserciones de [PHPUnit](https://phpunit.readthedocs.io/es/latest/assertions.html). Hay muchísimos tipos que nos pueden servir para prácticamente todo lo que queramos, y encontramos una extensa y contrastada documentación por los miles de usuarios que usan esta biblioteca a diario. Además, encontramos la ventaja adicional de ser las aserciones específicas de uno de los marcos de test que usaremos, como explicaremos más adelante.
+
+Otra posibilidad que encontramos es la biblioteca creada por [Benjamin Eberlei](https://laravel-news.com/assertion-library-for-php) y que podemos encontrar en su [GitHub](https://github.com/beberlei/assert). Según explica su creador, la biblioteca no usa recursos adicionales de Symfony (aunque nosotros si lo hacemos en nuestro proyecto) y además, no está orientada a objetos y por esta serie de motivos, hemos decidido prescindir de su uso, aunque para otros futuros proyectos si puede ser interesante.
+
+Como última opción encontramos la biblioteca [Webmozart Assert](https://github.com/webmozart/assert). Vemos que aporta aserciones muy eficientes enfocadas a no necesitar escribir una gran cantidad de código para obtener una implementación segura de las aserciones. Además, vemos que está muy aceptada por la comunidad, con más de [800000](https://github.com/webmozart/assert/network/dependents?package_id=UGFja2FnZS01NDI5NDA3ODI%3D) repositorios que la usan, en contraste de los no más de [5000](https://github.com/beberlei/assert/network/dependents?package_id=UGFja2FnZS01NDg5MzI2Mzg%3D) usos de la biblioteca anterior.
+
+Por todo esto, he decidido hacer uso de la primera y tercera bibliotecas. Con el uso de ambas estoy seguro de poder abarcar todos los casos que necesite en los tests. Ambas son bibliotecas respaldadas por la comunidad y que están actualizadas (ambas han sido actualizadas este año).
+
 ## Elección y justificación del marco de pruebas usado
 En cuanto a desarrollo de test, nos encontramos con varias opciones:
 

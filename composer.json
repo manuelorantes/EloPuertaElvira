@@ -5,7 +5,8 @@
         "phpspec/phpspec": "^6.3",
         "phpspec/nyan-formatters": "dev-master",
         "reisraff/phulp": "^2.1",
-        "phpunit/phpunit": "^9.4"
+        "phpunit/phpunit": "^9.4",
+        "webmozart/assert": "^1.9"
     },
     "config": {
         "platform": {}
@@ -15,5 +16,7 @@
         "psr-4": {
             "App\\": "src/"
         }
+    },
+    "require": {
     }
 }
