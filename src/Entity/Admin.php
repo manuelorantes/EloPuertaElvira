@@ -24,7 +24,12 @@ class Admin
 
         foreach ($this->getClub()->getPlayers() as $clubPlayer){
             if ($clubPlayer->getName() === $player->getName()) {
-                throw new AlreadyIsInTheClubExpection();
+                if (!$isMember){
+                    throw new AlreadyIsInTheClubExpection();
+                }
+                else{
+                    $this->getClub()->playerBecomeMember($player);
+                }
             }
         }
 
