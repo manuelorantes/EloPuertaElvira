@@ -5,29 +5,17 @@ namespace App\Entity;
 
 class Admin
 {
-    private string $userName;
-
-    private string $password;
-
     private Club $club;
 
-    public function __construct(string $userName, string $password, string $clubName)
+    public function __construct(string $clubName)
     {
-        $this->userName = $userName;
-        $this->password = $password;
         $this->club = new Club($clubName);
     }
 
-    private function addNewPlayerNotMemberToClub(string $name, int $elo = 0){
+    private function addNewPlayerNotMemberToClub(string $name, int $elo = 0, $isMember = false){
         $player = new Player($name, $elo);
 
-        $this->club->addPlayer($player);
-    }
-
-    private function addNewPlayerMemberToClub(string $name, int $elo = 0){
-        $player = new Player($name, $elo);
-
-        $this->club->addPlayer($player, true);
+        $this->club->addPlayer($player, $isMember);
     }
 
     private function addMemberToClub(Player $player){
