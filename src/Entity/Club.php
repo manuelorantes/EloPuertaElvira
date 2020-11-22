@@ -30,4 +30,19 @@ class Club
             $this->members[] = $player;
         }
     }
+
+    public function getPlayers(): array
+    {
+        return $this->players;
+    }
+
+    public function getMembers(): array
+    {
+        return $this->members;
+    }
+
+    public function getName(): string
+    {
+        return $this->name;
+    }
 }

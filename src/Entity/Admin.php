@@ -1,7 +1,9 @@
 <?php
 
-
 namespace App\Entity;
+
+use App\Exceptions\AlreadyIsAMemberException;
+use App\Exceptions\AlreadyIsInTheClubExpection;
 
 class Admin
 {
@@ -12,15 +14,38 @@ class Admin
         $this->club = new Club($clubName);
     }
 
-    private function addNewPlayerNotMemberToClub(string $name, int $elo = 0, $isMember = false){
-        $player = new Player($name, $elo);
+    public function addPlayerToClub(Player $player, $isMember = false): void
+    {
+        foreach ($this->getClub()->getMembers() as $member){
+            if ($member->getName() === $player->getName()) {
+                throw new AlreadyIsAMemberException();
+            }
+        }
 
+        foreach ($this->getClub()->getPlayers() as $clubPlayer){
+            if ($clubPlayer->getName() === $player->getName()) {
+                throw new AlreadyIsInTheClubExpection();
+            }
+        }
+
+        $this->getClub()->addPlayer($player, $isMember);
+
+    }
+
+    public function addNewPlayerNotMemberToClub(Player $player, $isMember = false): void
+    {
         $this->club->addPlayer($player, $isMember);
     }
 
-    private function addMemberToClub(Player $player){
+    public function addMemberToClub(Player $player): void
+    {
 
         $this->club->playerBecomeMember($player);
+    }
+
+    public function getClub(): Club
+    {
+        return $this->club;
     }
 
 }

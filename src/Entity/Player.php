@@ -7,7 +7,7 @@ class Player
     private string $name;
     private int $elo;
 
-    public function __construct(string $name, int $elo)
+    public function __construct(string $name, int $elo = 0)
     {
         $this->name = $name;
         $this->elo = $elo;
@@ -21,6 +21,11 @@ class Player
     public function setElo(int $newElo) :void
     {
         $this->elo = $newElo;
+    }
+
+    public function getName(): string
+    {
+        return $this->name;
     }
 
 }
