@@ -20,4 +20,4 @@ Por todo esto, se quiere crear una herramienta de ayuda en forma de API que devu
 
 # Referente a las rúbricas evaluables de esta entrega
 
-En el siguiente [enlace](https://github.com/manuelorantes/EloPuertaElvira/tree/main/Documentacion/Hito%202) podemos ver todo lo que se ha realizado para esta entrega.
+En el siguiente [enlace](https://github.com/manuelorantes/EloPuertaElvira/tree/main/Documentacion/Entrega%202) podemos ver todo lo que se ha realizado para esta entrega.

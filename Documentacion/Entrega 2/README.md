@@ -1,4 +1,4 @@
-# Hito 2
+# Entrega 2
 
 ## Configuración correcta del gestor de tareas y justificación de la misma
 
@@ -35,9 +35,9 @@ Finalmente me he decantado por usar PHPUnit ya que posee bastante documentación
 
 ## Correcta relación entre avance de código (incluyendo los tests) e HUs
 
-Se han intentado arreglar algunos de los problemas que se vieron en el anterior hito. Actualmente solo ha dado tiempo de profundizar en [[HU1] Añadir un nuevo jugador al club](https://github.com/manuelorantes/EloPuertaElvira/issues/7).
+Se han intentado arreglar algunos de los problemas que se vieron en la anterior entrega. Actualmente solo ha dado tiempo de profundizar en [[HU1] Añadir un nuevo jugador al club](https://github.com/manuelorantes/EloPuertaElvira/issues/7).
 
-## Tests significativos y/o avance del proyecto en sí más allá de lo básico, incluyendo sugerencias hechas en las correcciones y evaluaciones de hitos anteriores
+## Tests significativos y/o avance del proyecto en sí más allá de lo básico, incluyendo sugerencias hechas en las correcciones y evaluaciones anteriores
 
 Como hemos visto más arriba, se ha intentado acabar con [[HU1] Añadir un nuevo jugador al club](https://github.com/manuelorantes/EloPuertaElvira/issues/7) y para ellos se han realizado [5 test](https://github.com/manuelorantes/EloPuertaElvira/blob/main/Tests/Entity/AdminTest.php) que exploran todas las circunstancias de esta HU.
 
