@@ -1,0 +1,16 @@
+FROM alpine:edge
+
+#Copy files
+COPY . /
+
+#Install npm
+RUN apk add --update nodejs npm
+
+#Install gulp
+RUN npm install --global gulp-cli
+
+#Install php
+RUN apk add php
+
+#Run tests
+RUN gulp tests

@@ -1,0 +1,14 @@
+FROM php:7.4-cli
+
+#Copy files
+COPY . /
+
+#Install npm
+RUN apt-get update
+RUN apt install npm -y
+
+#Install gulp
+RUN npm install --global gulp-cli
+
+#Run tests
+RUN gulp tests

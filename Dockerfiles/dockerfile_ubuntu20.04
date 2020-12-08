@@ -1,0 +1,22 @@
+FROM ubuntu:20.04
+
+#Set time zone
+ENV TZ=Europe/Madrid
+RUN ln -snf /usr/share/zoneinfo/$TZ /etc/localtime && echo $TZ > /etc/timezone
+
+#Copy files
+COPY . /
+
+#Install npm
+RUN apt-get update
+RUN apt install npm -y
+
+#Install gulp
+RUN npm install --global gulp-cli
+
+#Install php
+RUN apt-get install php php-cli php-fpm php-json php-common php-mysql php-zip php-gd php-mbstring php-curl php-xml php-pear php-bcmath -y
+
+#Run tests
+RUN gulp tests
+
